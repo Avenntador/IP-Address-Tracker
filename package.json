@@ -26,6 +26,7 @@
     "mini-css-extract-plugin": "^2.4.2",
     "sass": "^1.43.2",
     "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.1",
     "terser-webpack-plugin": "^5.2.4",
     "webpack": "^5.59.0",
     "webpack-cli": "^4.9.1",
@@ -33,6 +34,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "leaflet": "^1.7.1",
     "normalize.css": "^8.0.1"
   }
 }

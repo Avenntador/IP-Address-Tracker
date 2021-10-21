@@ -33,7 +33,8 @@ module.exports = {
     entry: ['@babel/polyfill', './js/main.js'],
     output: {
         filename: '[name].bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        assetModuleFilename: 'assets/[name][ext][query]'
     },
     resolve: {
         extensions: ['.js', '.json', '.png']
@@ -58,6 +59,15 @@ module.exports = {
     ],
     module: {
         rules: [
+            {   test: /\.css$/, 
+                use: ["style-loader","css-loader"] 
+            },
+
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+            },
+
             {
                 test: /\.s[ac]ss$/,
                 use: [
