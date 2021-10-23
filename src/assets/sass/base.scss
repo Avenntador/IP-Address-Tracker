@@ -16,4 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    background-image: url("../images/pattern-bg.png");
+    background-size: cover;
+    height: 35vh;
 }

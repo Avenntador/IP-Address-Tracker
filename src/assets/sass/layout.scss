@@ -1,59 +1,166 @@
+.section-content {
+  width: 75vw;
+  margin: 0 auto;
+
+
+  @media only screen and (max-width: 36.25em) {
+    width: 80%;
+  }
+    
+}
+
 .section-input {
-    background-image: url("../images/pattern-bg.png");
-    background-size: cover;
-    height: 35vh;
-    position: relative;
+  width: 45%;
+  margin: 5rem auto;
+  margin-bottom: 5rem;
+  position: relative;
+  z-index: 1000;
+
+  &__icon {
+    width: 3rem;
+    height: 2rem;
+    background-image: url('../images/symbol-defs.svg');
+    fill: white;
+    
+  }
 
 
-    &__content {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+  @media only screen and (max-width: 55em) {
+    width: 55%;
+    
+  }
 
-    }
+  @media only screen and (max-width: 43.75em) {
+    width: 60%;
+  }
+
+  @media only screen and (max-width: 36.25em) {
+    width: 107%;
+    margin-bottom: 3rem;
+    margin-top: 0;
+  }
+
+
+  
+}
+
+form {
+  display: flex;
+  padding: 2px;
+}
+
+
+
+
+input {
+  flex-grow: 2;
+  border: none;
+  border-radius: 1rem 0 0 1rem;
+  font-size: 1.8rem;
+  padding: 1.5rem;
+
+  &:focus {
+    outline: none;
+  }
+
+  @media only screen and (max-width: 36.25em) {
+    font-size: 1.3rem;
+  }
+}
+
+
+button {
+  background-color: hsl(0, 0%, 17%);
+  fill: #fff;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  cursor: pointer;
 }
 
 .section-output {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-
-  position: absolute;
-  left: 50%;
-  top: 27%;
-  z-index: 100;
-  transform: translateX(-50%);
-  
-  padding: 3rem 2rem;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 10;
+  padding: 3rem;
   background-color: #fff;
-  font-size: 18px;
+  font-size: 2.8rem;
   font-weight: bold;
   color: black;
   line-height: 1.7;
   border-radius: 1rem;
-  box-shadow: 0 1rem 2rem rgba(0,0,0, .5);
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 50%);
+
+    & > *:not(:last-child) {
+      border-right: 1px rgba(0, 0, 0, 0.205) solid;
+
+      @media only screen and (max-width: 43.75em) {
+        border-right:none;
+      }
+    }
 
 
     & > * {
-        padding: 0 4rem;
+      padding: 0 5.5rem 0 2rem; 
+
+      @media only screen and (max-width: 43.75em) {
+        padding: 0;
       }
+    }
+
+//1em = 16px 1315/16
+
+    @media only screen and (max-width: 82.2em) {
+      font-size: 2rem;
+    }
+
+    //920
+    @media only screen and (max-width: 57.5em) {
+      font-size: 1.6rem;
+    }
+
+    //700
+    @media only screen and (max-width: 43.75em) {
+        flex-direction: column;
+        padding: 1rem;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    @media only screen and (max-width: 36.25em) {
+      width: 100%;
+    }
+
+    
+
 }
 
 
-input {
-    width: 100%;
+
+
+.heading__main {
+  color: #fff;
+  font-size: 2.8rem;
+  text-align: center;
+
+  //580
+  @media only screen and (max-width: 36.25em) {
+    font-size: 2.5rem;
+  }
 }
 
 .heading-4, p {
-    margin: 0;
+  margin: 0;
+}
+
+.heading-4 {
+  color: hsl(0, 0%, 59%);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+
+  @media only screen and (max-width: 43.75em) {
+    text-align: center;
   }
-  
-  .heading-4 {
-    color: rgb(175, 167, 167);
-    text-transform: uppercase;
-    font-size: 1.2rem;
-  }
-  
+}
   
