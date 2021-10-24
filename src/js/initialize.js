@@ -60,9 +60,6 @@ const initialize = (map) => {
                 // input.value = '';
             })
     });
-
-
-
 };
 
 export default initialize;
