@@ -21,13 +21,14 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 Users should be able to:
 
 - View the optimal layout for each page depending on their device's screen size
+
 - See hover states for all interactive elements on the page
 - See their own IP address on the map on the initial page load
 - Search for any IP addresses or domains and see the key information and location
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop-design](https://user-images.githubusercontent.com/29005134/144385343-cf60b0eb-f94e-403f-b2ed-80306fc13189.jpg)
 
 ### Links
 
@@ -38,14 +39,15 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
+- JavaScript
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
+- Desktop-first workflow
 
 ### What I learned
 
+Work with third-party libraries and integrate them into your applications.
 
 ### Useful resources
 
