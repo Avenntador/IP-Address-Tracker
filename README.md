@@ -7,11 +7,9 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -20,20 +18,13 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- View the optimal layout for each page depending on their device's screen size
-
-- See hover states for all interactive elements on the page
-- See their own IP address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
+- See hover states for all interactive elements on the page :heavy_check_mark:
+- See their own IP address on the map on the initial page load :heavy_check_mark:
+- Search for any IP addresses or domains and see the key information and location :heavy_check_mark:
 
 ### Screenshot
 
 ![desktop-design](https://user-images.githubusercontent.com/29005134/144385343-cf60b0eb-f94e-403f-b2ed-80306fc13189.jpg)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -49,11 +40,7 @@ Users should be able to:
 
 Work with third-party libraries and integrate them into your applications.
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [About me](https://bgf-cv.ru/)
+- Telegramm - [Avenntador](https://t.me/avenntador)
